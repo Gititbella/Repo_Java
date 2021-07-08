@@ -1,4 +1,4 @@
-package Class;
+package Class1;
 
 public class Java_Class1 {
 
