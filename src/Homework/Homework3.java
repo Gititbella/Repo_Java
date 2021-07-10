@@ -61,9 +61,9 @@ public class Homework3 {
          * Convert Celcius to Kelvin
          *
          */
-        double cTemp = 0
-        double kTemp = cTemp + 273.15
-        System.out.println(cTemp + " degrees celcius is equal to " + kTemp + " degrees kelvin.")
+        double newCTemp = 0;
+        double kTemp = cTemp + 273.15;
+        System.out.println(cTemp + " degrees celcius is equal to " + kTemp + " degrees kelvin.");
 
         /**
          *
@@ -71,9 +71,15 @@ public class Homework3 {
          *
          */
 
-        double cTemp
-        double kTemp = cTemp-273.15
-        system.out.println(kTemp + " degrees kelvin is equal to " + cTemp + " degrees celcius.")
+        double newCTemp;
+        double kTemp = cTemp-273.15;
+        System.out.println(kTemp + " degrees kelvin is equal to " + cTemp + " degrees celcius.");
+
+        /**
+         *
+         *
+         *
+         */
     }
 }
 
