@@ -39,7 +39,22 @@ public class Homework3 {
     char lastName = 'S';
         System.out.println("My Initials: " + firstName + lastName);
 
-
+        /**
+         *
+         * Convert Celcius to Fahrenheit
+         *
+         */
+        double cTemp = 100;
+        double fTemp = cTemp * 9/5 +32;
+        System.out.println(cTemp+" degrees celcius is equal to "+fTemp+" degrees fahrenheit.");
+        /**
+         *
+         * Reverse
+         *
+         */
+        fTemp = 100;
+        cTemp = (fTemp-32)*5/9;
+        System.out.println(fTemp+" degrees fahrenheit is equal to "+cTemp+" degrees celcius.");
 
 }
 }
