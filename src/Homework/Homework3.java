@@ -56,6 +56,24 @@ public class Homework3 {
         cTemp = (fTemp-32)*5/9;
         System.out.println(fTemp+" degrees fahrenheit is equal to "+cTemp+" degrees celcius.");
 
-}
+        /**
+         *
+         * Convert Celcius to Kelvin
+         *
+         */
+        double cTemp = 0
+        double kTemp = cTemp + 273.15
+        System.out.println(cTemp + " degrees celcius is equal to " + kTemp + " degrees kelvin.")
+
+        /**
+         *
+         * Reverse
+         *
+         */
+
+        double cTemp
+        double kTemp = cTemp-273.15
+        system.out.println(kTemp + " degrees kelvin is equal to " + cTemp + " degrees celcius.")
+    }
 }
 
