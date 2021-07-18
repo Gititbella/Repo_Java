@@ -17,6 +17,12 @@ public class Homework4 {
              * use: Ternary operator
              *
              */
+            int sentenceLength = sentence_1.length();
+            System.out.println(sentenceLength);
+
+            result_1 = sentenceLength > 10 ?  + 100 : + 15;
+            result_1 = sentenceLength >= 10 ?  100 : 15;
+            System.out.println("result_1 = " + result_1);
 
             // Question - 2
             String sentence_2 = "We all ARe GOod ProgrAMmer";
