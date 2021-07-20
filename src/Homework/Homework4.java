@@ -19,8 +19,6 @@ public class Homework4 {
              */
             int sentenceLength = sentence_1.length();
             System.out.println(sentenceLength);
-
-            result_1 = sentenceLength > 10 ?  + 100 : + 15;
             result_1 = sentenceLength >= 10 ?  100 : 15;
             System.out.println("result_1 = " + result_1);
 

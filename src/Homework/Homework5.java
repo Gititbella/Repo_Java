@@ -35,4 +35,5 @@ public class Homework5 {
          * print the number of words in the sentence.
          */
         String sentence_3 = "We all are here to learn programming and testing";
+    }
 }
