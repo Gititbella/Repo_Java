@@ -6,11 +6,7 @@ public class Homework5 {
         // Due: July 18
 
         // Question - 1:
-        /**
-         * String threeWordSentence = "hApPy nEW yeAr"
-         * // code
-         * String threeWordSentence = "Happy New Year"
-         */
+
         String threeWordSentence_1 = "hApPy nEW yeAr";
         System.out.println("Before code : " + threeWordSentence_1);     // "hApPy nEW yeAr"
 
@@ -29,7 +25,6 @@ public class Homework5 {
 
         // Question - 2:
         String threeWordSentence_2 = "very gOOD MorNING";
-        String abbr = "";
 
         //convert to lowercase
         //split words from the sentence
@@ -40,18 +35,15 @@ public class Homework5 {
         String[] threeWordsSentence_2_Split = threeWordSentence_2.split(" ");
         String firstLetter = threeWordsSentence_2_Split[0].substring(0,1).toUpperCase();
         String secondLetter = threeWordsSentence_2_Split[1].substring(0,1).toUpperCase();
-        String thirdLetter = threeWordsSentence_2_Split[2].substring(0,1).toUpperCase();\
-        abbr = firstLetter + secondLetter + thirdLetter;
+        String thirdLetter = threeWordsSentence_2_Split[2].substring(0,1).toUpperCase();
+        String abbr = firstLetter + secondLetter + thirdLetter;
         System.out.println("Abbreviation for '" + threeWordSentence_2 + "' is : " + abbr);
         // Abbreviation for 'very gOOD MorNING' is : VGM
 
 
         // Question - 3:
-        /**
-         * print the number of words in the sentence.
-         */
         String sentence_3 = "We all are here to learn programming and testing";
-        String[] sentence3_Split = sentence3.split(" ");
+        String[] sentence3_Split = sentence_3.split(" ");
         System.out.println("Length of the third sentence is: "+sentence3_Split.length);
 
     }

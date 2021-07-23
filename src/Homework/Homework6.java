@@ -21,7 +21,7 @@ public class Homework6 {
         // print result like:
         // Your percentage: XX.yy and your Grade is: Z
 
-        double percent = studentScore * 100 / maxScore;
+        double percent = studentScore * 100.0 / maxScore;
         if (percent >= 91) {
             System.out.println("Your percentage is " + percent + " and your grade is 'A'");
         } else if (percent >= 81) {
@@ -32,7 +32,7 @@ public class Homework6 {
             System.out.println("Your percentage is " + percent + " and your grade is 'D'");
         } else if (percent >= 51) {
             System.out.println("Your percentage is " + percent + " and your grade is 'E'");
-        } else (percent < 50) {
+        } else if (percent < 50) {
             System.out.println("Your percentage is " + percent + " and your grade is 'F'");
         }
 
